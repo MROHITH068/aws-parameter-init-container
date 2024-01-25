@@ -12,7 +12,7 @@ metadata:
   name: aws-param-test
 spec:
   serviceAccountName: test
-  container:
+  containers:
     - name: param-test
       image: 403215663985.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-init-container:latest
       imagePullPolicy: Always
